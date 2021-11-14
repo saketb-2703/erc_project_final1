@@ -44,26 +44,26 @@ weight: 2
 </center>
 
 <label for="year">Select batch:</label>
-<select name="year" id="year">
-    <option value="Current team">Current Teamm </option>
-    <option value="Batch of 2018">Batch of 2018</option>
-    <option value="Batch of 2017">Batch of 2017</option>
-    <option value="Batch of 2016">Batch of 2016</option>
-    <option value="Batch of 2015">Batch of 2015</option>
-    <option value="Batch of 2014">Batch of 2014</option>
-    <option value="Batch of 2013">Batch of 2013</option>
-    <option value="Batch of 2012">Batch of 2012</option>
-    <option value="Batch of 2011">Batch of 2011</option>
-    <option value="Batch of 2010">Batch of 2010</option>
-    <option value="Batch of 2009">Batch of 2009</option>
-    <option value="Batch of 2008">Batch of 2008</option>
-    <option value="Batch of 2007">Batch of 2007</option>
-    <option value="Batch of 2006">Batch of 2006</option>
+<select name="year" id="year" onchange="linkTo(this.value)">
+    <option value="#content">Current Team</option>
+    <option value="#2018">Batch of 2018</option>
+    <option value="#2017">Batch of 2017</option>
+    <option value="#2016">Batch of 2016</option>
+    <option value="#2015">Batch of 2015</option>
+    <option value="#2014">Batch of 2014</option>
+    <option value="#2013">Batch of 2013</option>
+    <option value="#2012">Batch of 2012</option>
+    <option value="#2011">Batch of 2011</option>
+    <option value="#2010">Batch of 2010</option>
+    <option value="#2009">Batch of 2009</option>
+    <option value="#2008">Batch of 2008</option>
+    <option value="#2007">Batch of 2007</option>
+    <option value="#2006">Batch of 2006</option>
 </select>
 
 <center>
 <header class="major">
-<h1 id="content">Current Team</h1>
+<h1 id="content"  >Current Team</h1>
 </header>
 </center>
 
