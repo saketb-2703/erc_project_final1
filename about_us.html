@@ -45,7 +45,7 @@ weight: 2
 
 <label for="year">Select batch:</label>
 <select name="year" id="year">
-    <option value="Current team">Current team</option>
+    <option value="Current team"><a href="about_us.html#2019"></a> Current team</option>
     <option value="Batch of 2018">Batch of 2018</option>
     <option value="Batch of 2017">Batch of 2017</option>
     <option value="Batch of 2016">Batch of 2016</option>
@@ -93,7 +93,7 @@ weight: 2
 		</center>
 		</p>
 	</div>
-
+ 
 	<div class="4u 12u$(medium)">
 		<p>
 		<center>
@@ -222,7 +222,7 @@ weight: 2
 
 
 
-<h2> Batch of 2018 </h2>
+<h2 id="2018"> Batch of 2018 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -397,7 +397,7 @@ weight: 2
 
 <hr class="major">
 
-<h2> Batch of 2017 </h2>
+<h2 id="2017"> Batch of 2017 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -497,7 +497,7 @@ weight: 2
 
 <hr class="major">
 
-<h2> Batch of 2016 </h2>
+<h2 id="2016"> Batch of 2016 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -575,7 +575,7 @@ weight: 2
 
 <hr class="major">
 
-<h2> Batch of 2015 </h2>
+<h2 id="2015"> Batch of 2015 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -675,7 +675,7 @@ weight: 2
 
 <hr class="major">
 
-<h2> Batch of 2014 </h2>
+<h2 id="2014"> Batch of 2014 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -772,7 +772,7 @@ weight: 2
 
 <hr class="major">
 
-<h2> Batch of 2013 </h2>
+<h2 id="2013"> Batch of 2013 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -906,7 +906,7 @@ weight: 2
 
 <hr class="major">
 
-<h2> Batch of 2012 </h2>
+<h2 id="2012"> Batch of 2012 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -995,7 +995,7 @@ weight: 2
 
 <hr class="major">
 
-<h2> Batch of 2011 </h2>
+<h2 id="2011"> Batch of 2011 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -1059,7 +1059,7 @@ weight: 2
 
 <hr class="major">
 
-<h2> Batch of 2010 </h2>
+<h2 id="2010"> Batch of 2010 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -1085,6 +1085,7 @@ weight: 2
 		</center>
 		</p>
 	</div>
+	
 
 	<div class="4u 12u$(medium)">
 		<p>
@@ -1170,7 +1171,7 @@ weight: 2
 
 <hr class="major">
 
-<h2> Batch of 2009 </h2>
+<h2 id="2009"> Batch of 2009 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -1245,7 +1246,7 @@ weight: 2
 
 <hr class="major">
 
-<h2> Batch of 2008 </h2>
+<h2 id="2008"> Batch of 2008 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -1298,7 +1299,7 @@ weight: 2
 
 <hr class="major">
 
-<h2> Batch of 2007 </h2>
+<h2 id="2007"> Batch of 2007 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -1351,7 +1352,7 @@ weight: 2
 
 <hr class="major">
 
-<h2> Batch of 2006 </h2>
+<h2 id="2006"> Batch of 2006 </h2>
 
 <div class="row">
 	<div class="4u 12u$(medium)">
@@ -1365,6 +1366,8 @@ weight: 2
 		</center>
 		</p>
 	</div>
+	
+	<div id="2019"></div>
 
 	<div class="4u 12u$(medium)">
 		<p>
