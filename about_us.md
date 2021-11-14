@@ -44,8 +44,8 @@ weight: 2
 </center>
 
 <label for="year">Select batch:</label>
-<select name="year" id="year" onchange="linkTo(this.value)">
-    <option value="#content">Current Team0</option>
+<select class="dropdown" name="year" id="year" onchange="linkTo(this.value)">
+    <option value="#content">Current Team</option>
     <option value="#2018">Batch of 2018</option>
     <option value="#2017">Batch of 2017</option>
     <option value="#2016">Batch of 2016</option>
