@@ -1,0 +1,34 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+	<a href="{{ "" | absolute_url }}/" class="logo" style="padding: 0 !important;"><img src="img\misc\logo.png" style=" max-height:100% !important; "></a>
+	<a href="{{ "" | absolute_url }}/" class="logo" style="padding-left: 10px !important;"><strong>{{ site.title }}</strong><span>{{ site.subtitle }}</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        {% for page in site.pages %}
+		    {% if page.layout == "home" %}
+		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+	    	{% endif %}
+		{% endfor %}
+		{% assign tiles=site.html_pages | sort:"weight" %}
+		{% for page in tiles %}
+			{% if page.layout != "home" and page.nav-menu == true % and page.title == 'Blog' %}
+			<li><a href="https://erc-bpgc.github.io/blog/">{{ page.title }}</a></li>
+			{% elsif page.layout != "home" and page.nav-menu == true % and page.title == 'Handbook' %}
+			<li><a href="https://erc-bpgc.github.io/handbook/">{{ page.title }}</a></li>
+			{% elsif page.layout != "home" and page.nav-menu == true % and page.title == 'Archives' %}
+			<li><a href="/archive.html">{{ page.title }}</a></li>
+		    {% elsif page.layout != "home" and page.nav-menu == true %}
+		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		    {% endif %}
+		{% endfor %}
+	
+</nav>

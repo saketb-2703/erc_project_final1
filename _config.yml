@@ -1,0 +1,40 @@
+# site settings
+title: ERC
+subtitle: 
+email: ercbitsgoa@gmail.com
+description: The Robotics Club of BITS GOA 
+baseurl: 
+url: 
+author:
+street_address: BITS Pilani K K Birla Goa Campus
+city: Sancoale
+state: Goa
+zip_code: 403726
+country:  India
+
+google_analytics:
+  - UA-173174352-4
+  - auto
+
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 8
+
+# social settings
+500px_url:
+facebook_url: https://www.facebook.com/ElectronicsAndRoboticsClub/
+github_url: https://github.com/ERC-BPGC
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://www.instagram.com/erc_bitsgoa/
+linkedin_url: https://in.linkedin.com/company/electronics-robotics-club-bits-goa
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/erc_bpgc?s=08
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
