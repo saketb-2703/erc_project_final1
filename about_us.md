@@ -45,7 +45,7 @@ weight: 2
 
 <label for="year">Select batch:</label>
 <select name="year" id="year">
-    <option value="Current team"><a href="about_us.html#2019"></a> Current Team</option>
+    <option value="Current team"><a href=#2019"></a> Current Teamm</option>
     <option value="Batch of 2018">Batch of 2018</option>
     <option value="Batch of 2017">Batch of 2017</option>
     <option value="Batch of 2016">Batch of 2016</option>
