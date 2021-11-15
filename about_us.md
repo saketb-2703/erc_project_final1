@@ -8,7 +8,7 @@ weight: 2
 ---
 <!-- Main -->
 <div id="main" class="alt">
-	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Select Batch</button>
 
 	 
 	
