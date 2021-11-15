@@ -46,7 +46,7 @@ weight: 2
 <center>
 	<img src="img/people/2019-2020.jpeg" height="75%" width="75%">
 	<br>
-	<h3>2019-2020</h3>
+	<h3 id="batch">2019-2020</h3>
 	<hr>
 </center>
 
