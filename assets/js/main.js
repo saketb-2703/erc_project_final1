@@ -20,13 +20,13 @@ function scrollFunction() {
 		mybutton.style.display = "none";
 	  }
 }
+
 	
 	// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
 	  location.href='#batch';
 	  document.getElementById('year').value='#content';
 }
-
 (function($) {
 
 	skel.breakpoints({
