@@ -11,6 +11,7 @@ weight: 2
 	
 	<section>
 		<button onclick="topFunction()" id="myBtn" title="Go to top" style="
+		    display: none;
 			position: fixed;
 			bottom: 10px;
 			right: 10px;
