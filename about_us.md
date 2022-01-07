@@ -9,7 +9,7 @@ weight: 2
 <!-- Main -->
 <div id="main" class="alt">
 	
-	<section>
+	
 		<button onclick="topFunction()" id="myBtn" title="Go to top" style="
 			position: fixed;
 			bottom: 10px;
@@ -24,7 +24,7 @@ weight: 2
 			padding: 5px;
 			border-radius: 4px;">
 			Select Batch</button>
-	</section>
+	
 	
 	
 	 
